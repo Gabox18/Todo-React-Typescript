@@ -11,10 +11,10 @@ interface Props {
 
 export const Footer: React.FC<Props> = ({
   activeCount = 0,
-  completedCount = 0,
+  // completedCount = 0,
   filterSelected,
-  handleFilterChange,
-  onClearComplete
+  handleFilterChange
+  // onClearComplete
 }) => {
   return (
     <footer className="footer">
